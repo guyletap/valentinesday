@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Valentine's Day, My Love! 💖</h1>
+        
+        <section class="poems">
+            <h2>📜 A Poem for You</h2>
+            <button class="poem-button" onclick="openPoem()">Read a Poem</button>
+        </section>
+        
+
+        <!-- Memory Timeline -->
+        <section class="timeline">
+            <h2>📸 Our Time Together</h2>
+            <div class="memories">
+                <div class="memory">
+                    <img src="memory1.jpg" alt="Memory 1">
+                    <p></p>
+                </div>
+                <div class="memory">
+                    <img src="memory2.jpg" alt="Memory 2">
+                    <p></p>
+                </div>
+                <div class="memory">
+                    <img src="memory3.jpg" alt="Memory 3">
+                    <p></p>
+                </div>
+                <div class="memory">
+                    <img src="memory4.jpg" alt="Memory 4">
+                    <p></p>
+                </div>
+                <div class="memory">
+                    <img src="memory5.jpg" alt="Memory 5">
+                    <p></p>
+                </div>
+                <div class="memory">
+                    <img src="memory6.jpg" alt="Memory 6">
+                    <p></p>
+                </div>
+            </div>
+        </section>
+        <section class="encouragement">
+            <h2>💬 Words of Encouragement</h2>
+            <button class="encouragement-button" onclick="openEncouragement()">For when you are feeling down</button>
+        </section>
+        
+        <!-- Mini Quiz -->
+        <section class="quiz">
+            <h2>❓ How much do you think I love you?</h2>
+            <p></p>
+            <button onclick="checkAnswer('A')">A) my favorite person in the whole world</button>
+            <button onclick="checkAnswer('B')">B) more than drake</button>
+            <button onclick="checkAnswer('C')">C) I love you 3000</button>
+            <p id="quiz-result"></p>
+        </section>
+
+        <!-- Custom Playlist -->
+        <section class="playlist">
+            <h2>🎶 Our Special Playlist</h2>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7oBDM00fnfzvqhn2fS8f5q?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
